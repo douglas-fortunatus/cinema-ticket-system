@@ -1,0 +1,29 @@
+.page-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #464646;
+    margin-top: 50px;
+
+    a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        margin: 0px 13px;
+        opacity: 0.5;
+        transition: all ease 0.3s;
+    }
+
+    .page-active,
+    a:hover{
+        opacity: 1;
+        transition: all ease 0.3s;
+    }
+}
+
+.page-number .page-active,
+.page-number a:hover{
+    opacity: 1;
+    transition: all ease 0.3s;
+}

@@ -1,0 +1,15 @@
+
+// typography
+$text-font: poppins;
+
+
+// color
+$primary: #e50914 !default;
+$background: #080808;
+$white: #ffffff;
+
+
+$button-height: 44px;
+$avatar-size: 30px;
+$border-radius: $button-height/2;
+$button-padding: ($button-height+4 - $avatar-size)-10px;

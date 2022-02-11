@@ -1,0 +1,17 @@
+
+
+@import
+'abstract/variable',
+'abstract/mixin',
+'abstract/animation';
+
+@import 'base/basic';
+
+@import 
+'layouts/header',
+'layouts/avatar',
+'layouts/slider',
+'layouts/pagination',
+'layouts/footer';
+
+@import 'pages/all';
